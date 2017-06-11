@@ -1,0 +1,68 @@
+*  {
+font-family: Museo Sans;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  background-color: #e2e2e2;
+}
+container {
+margin: 0 auto;
+height: 100%;
+background-color: gray;
+}
+nav{
+  display: none;
+}
+/* Top of Page Prolly be a slideshow or just a logo for you */
+#banner_top{
+background-image: url('Me.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+background-color: white;
+width: 99%;
+height: 250px;
+margin-top: 0;
+
+}
+/*Hello my nam is MIKEDANIEL*/
+#logo h1, h5 {
+  display: block;
+  margin: auto;
+  padding: 0px;
+  background-color: white;
+  width: 50%;
+}
+#logo {
+/*Centers Logo*/
+padding-top: 100px;
+text-align: center;
+}
+
+/*Content*/
+.block {
+margin: 7px 0px;
+background-color: white;
+border: 1px;
+border-color:white;
+border-width: 2px;
+text-align: center;
+border-radius: 5px;
+padding-bottom: 70px;
+padding-top: 2px;
+}
+.block p {
+  font-size: .8em;
+}
+.block h2 {
+  margin:20px 0;
+
+}
+.what_i_do {
+  background-color:#387bc9;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
